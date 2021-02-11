@@ -58,8 +58,8 @@ const resetDB = () => { // ONLY TESTS USE THIS ONE
 module.exports = {
   find,
   findById,
-  insert,
-  update,
-  remove,
+  insert, //post
+  update, //put
+  remove, //delete
   resetDB, // ONLY TESTS USE THIS ONE
 }
