@@ -93,7 +93,7 @@ server.delete('/api/users/:id', (req, res) => {
   res.status(200).send(user);
 });
 
-//add new user
+//Update Users
 server.put('/api/users/:id', (req, res) => {
   const { id } = req.params;
   const newUserInfo = req.body;
